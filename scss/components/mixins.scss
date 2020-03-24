@@ -1,0 +1,45 @@
+@mixin resize($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin background($color) {
+    background-color: $color;
+}
+
+@mixin box($height, $lineHeight, $size, $color) {
+    height: $height;
+    line-height: $lineHeight;
+    font-size: $size;
+    color: $color;
+}
+@mixin border($color, $size) {
+    border: solid $size $color;
+}
+
+@mixin items($width, $top, $left, $zindex) {
+    width: $width;
+    top: $top;
+    left: $left;
+    z-index: $zindex;
+}
+
+@mixin placeholder($color: $base) {
+    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: $color;
+        opacity: 1; /* Firefox */
+    }
+      
+    &:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: $color;
+    }
+      
+    &::-ms-input-placeholder { /* Microsoft Edge */
+        color: $color;
+    }
+    
+    &:focus {
+        outline:0px;
+        box-shadow: 0px 0px 10px 2px rgba($base, 0.2);
+    }    
+}

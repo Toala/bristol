@@ -1,0 +1,48 @@
+@import "components/variables";
+@import "components/mixins";
+@import "components/inputs";
+@import "components/buttons";
+
+@font-face {
+    font-family: avenir;
+    src: url("fonts/AvenirLTStd-Book.otf");
+}
+
+// div {
+//     border: solid 1px;
+// }
+
+.title {
+    border-top: solid 3px $app;
+    border-bottom: solid 3px $app;
+    height: 70px;
+    color: $app;
+
+    h3 {
+        line-height: 60px;
+    }
+}
+
+#login .container  #login-column #login-box {
+    max-width: 600px;
+    height: 320px;
+}
+
+#login .container #login-column #login-box #login-form {
+    padding: 20px;
+}
+
+.txt-app {
+    color: $app;
+}
+
+footer { 
+    height: 100px; 
+    background: $app;
+    width:100%; 
+    font-size: 10px;
+    padding-top: 20px;
+    color: #a1d1ff;
+    position:absolute; 
+    // bottom:0px; 
+}

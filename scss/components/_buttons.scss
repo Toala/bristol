@@ -1,0 +1,7 @@
+.btn-access {
+    @include border($app, 3px );
+    border-radius: 20px;
+    @include box(40px, 35px, 18px, $app);
+    text-transform: uppercase;
+    cursor: pointer;
+}

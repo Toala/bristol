@@ -1,0 +1,72 @@
+.cedula {
+  border: none;
+  border-radius: 0px;
+  border-bottom: solid 3px #004a87;
+  font-size: 25px;
+}
+.cedula::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: transparent;
+  opacity: 1;
+  /* Firefox */
+}
+.cedula:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: transparent;
+}
+.cedula::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: transparent;
+}
+.cedula:focus {
+  outline: 0px;
+  box-shadow: 0px 0px 10px 2px rgba(255, 255, 255, 0.2);
+}
+
+.btn-access {
+  border: solid 3px #004a87;
+  border-radius: 20px;
+  height: 40px;
+  line-height: 35px;
+  font-size: 18px;
+  color: #004a87;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: avenir;
+  src: url("fonts/AvenirLTStd-Book.otf");
+}
+.title {
+  border-top: solid 3px #004a87;
+  border-bottom: solid 3px #004a87;
+  height: 70px;
+  color: #004a87;
+}
+.title h3 {
+  line-height: 60px;
+}
+
+#login .container #login-column #login-box {
+  max-width: 600px;
+  height: 320px;
+}
+
+#login .container #login-column #login-box #login-form {
+  padding: 20px;
+}
+
+.txt-app {
+  color: #004a87;
+}
+
+footer {
+  height: 100px;
+  background: #004a87;
+  width: 100%;
+  font-size: 10px;
+  padding-top: 20px;
+  color: #a1d1ff;
+  position: absolute;
+}

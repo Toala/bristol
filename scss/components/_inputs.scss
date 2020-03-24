@@ -1,0 +1,7 @@
+.cedula {
+    border: none;
+    border-radius: 0px;
+    border-bottom: solid 3px $app;
+    font-size: 25px;
+    @include placeholder($color: transparent);
+}
