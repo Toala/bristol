@@ -34,6 +34,10 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+.btn-access:hover {
+  background-color: #004a87;
+  color: #ffffff;
+}
 
 @font-face {
   font-family: avenir;
@@ -49,7 +53,7 @@ html, body {
 }
 
 #content {
-  padding-bottom: 81px;
+  padding-bottom: 100px;
   /* El tamaño del footer para evitar el sobreposicionamiento */
 }
 

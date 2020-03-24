@@ -4,4 +4,9 @@
     @include box(40px, 35px, 18px, $app);
     text-transform: uppercase;
     cursor: pointer;
+
+    &:hover {
+        background-color: $app;
+        color: $base;
+    }
 }
