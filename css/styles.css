@@ -26,9 +26,9 @@
 
 .btn-access {
   border: solid 3px #004a87;
-  border-radius: 20px;
-  height: 40px;
-  line-height: 35px;
+  border-radius: 35px;
+  height: 50px;
+  line-height: 45px;
   font-size: 18px;
   color: #004a87;
   text-transform: uppercase;
@@ -45,6 +45,12 @@
 }
 html, body {
   height: 100%;
+}
+
+body {
+  background: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 #wrapper {

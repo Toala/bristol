@@ -16,6 +16,12 @@ html, body {
     height: 100%;
 }
 
+body {
+    background: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
 #wrapper {
     min-height: 100%;
     position: relative;
