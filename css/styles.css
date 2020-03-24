@@ -39,6 +39,25 @@
   color: #ffffff;
 }
 
+.options {
+  border: solid 2px #004a87;
+  border-radius: 15px;
+  height: 30px;
+  line-height: 25px;
+  font-size: 12px;
+  color: #004a87;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.options:hover {
+  background-color: #004a87;
+  color: #ffffff;
+}
+
+.menu-options {
+  padding-top: 16px;
+}
+
 @font-face {
   font-family: avenir;
   src: url("fonts/AvenirLTStd-Book.otf");

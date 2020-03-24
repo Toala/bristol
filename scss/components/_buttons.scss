@@ -10,3 +10,20 @@
         color: $base;
     }
 }
+
+.options {
+    @include border($app, 2px );
+    border-radius: 15px;
+    @include box(30px, 25px, 12px, $app);
+    text-transform: uppercase;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $app;
+        color: $base;
+    }
+}
+
+.menu-options {
+    padding-top: 16px;
+}
