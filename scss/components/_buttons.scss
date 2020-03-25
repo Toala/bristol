@@ -12,16 +12,20 @@
 }
 
 .options {
-    @include border($app, 2px );
+    @include border(transparent, 2px );
     border-radius: 15px;
     @include box(30px, 25px, 12px, $app);
     text-transform: uppercase;
     cursor: pointer;
-
+    
     &:hover {
         background-color: $app;
         color: $base;
     }
+}
+
+.opt-active {
+    @include border($app, 2px );
 }
 
 .menu-options {

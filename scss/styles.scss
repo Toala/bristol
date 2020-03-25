@@ -8,7 +8,7 @@
     src: url("fonts/AvenirLTStd-Book.otf");
 }
 
-// div {
+// div, ol {
 //     border: solid 1px;
 // }
 
@@ -89,4 +89,20 @@ body {
 
 .p-info {
     font-size: 14px;
+}
+.carousel-indicators {
+    bottom: -32px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 100%;
+    background-color: rgba($color: $app, $alpha: 0.5);
+}
+
+.carousel-indicators .active {
+    background-color: $app;
 }

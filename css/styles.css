@@ -40,7 +40,7 @@
 }
 
 .options {
-  border: solid 2px #004a87;
+  border: solid 2px transparent;
   border-radius: 15px;
   height: 30px;
   line-height: 25px;
@@ -52,6 +52,10 @@
 .options:hover {
   background-color: #004a87;
   color: #ffffff;
+}
+
+.opt-active {
+  border: solid 2px #004a87;
 }
 
 .menu-options {
@@ -139,4 +143,21 @@ body {
 
 .p-info {
   font-size: 14px;
+}
+
+.carousel-indicators {
+  bottom: -32px;
+}
+
+.carousel-indicators li {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 100%;
+  background-color: rgba(0, 74, 135, 0.5);
+}
+
+.carousel-indicators .active {
+  background-color: #004a87;
 }
