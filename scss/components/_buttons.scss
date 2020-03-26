@@ -1,7 +1,7 @@
 .btn-access {
     @include border($app, 3px );
     border-radius: 35px;
-    @include box(50px, 45px, 18px, $app);
+    @include box(50px, 45px, 18px, #5b5756);
     text-transform: uppercase;
     cursor: pointer;
 
@@ -20,8 +20,17 @@
     
     &:hover {
         background-color: $app;
-        color: $base;
     }
+    
+    &:hover a {
+        background-color: $app;
+        color: $base !important;
+    }
+}
+
+.options a { 
+    text-decoration: none;
+    color: #5a5655;
 }
 
 .opt-active {
